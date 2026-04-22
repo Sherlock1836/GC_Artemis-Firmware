@@ -4,6 +4,7 @@
 [submodule "components/lvgl"]
 	path = components/lvgl
 	url = https://github.com/lvgl/lvgl.git
+	ignore = dirty
 [submodule "main/lib/mjson"]
 	path = main/lib/mjson
 	url = https://github.com/CircuitMess/mjson.git
