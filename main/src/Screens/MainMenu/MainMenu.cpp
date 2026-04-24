@@ -6,6 +6,7 @@
 #include "Screens/Theremin/Theremin.h"
 #include "Screens/PerseCtrl/PerseCtrlScreen.h"
 #include "Screens/Settings/SettingsScreen.h"
+#include "Screens/BLESpammer/BLESpammerScreen.h"
 #include "Util/stdafx.h"
 #include "LV_Interface/InputLVGL.h"
 #include "Screens/Lander/LunarLander.h"
@@ -136,6 +137,7 @@ void MainMenu::setupItemPaths(Theme theme){
 	ItemInfos[4].iconAltPath = THEMED_FILE(Menu, Connection, theme);
 	ItemInfos[5].iconPath = THEMED_FILE(Menu, Rover, theme);
 	ItemInfos[6].iconPath = THEMED_FILE(Menu, Settings, theme);
+	ItemInfos[7].iconPath = THEMED_FILE(Menu, Connection, theme);
 }
 
 void MainMenu::resetMenuIndex(){
@@ -209,7 +211,8 @@ void MainMenu::onClick(){
 			[this](){ transition([](){ return std::make_unique<Theremin>(); }); },
 			[](){ },
 			[this](){ transition([](){ return std::make_unique<PerseCtrlScreen>(); }); },
-			[this](){ transition([](){ return std::make_unique<SettingsScreen>(); }); }
+			[this](){ transition([](){ return std::make_unique<SettingsScreen>(); }); },
+			[this](){ transition([](){ return std::make_unique<BLESpammerScreen>(); }); }
 	};
 
 	launcher[index]();
