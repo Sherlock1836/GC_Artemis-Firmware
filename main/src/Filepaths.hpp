@@ -558,8 +558,8 @@ namespace File {
 			[[maybe_unused]] constexpr const char* CatOther = "S:/theme4/small/cat_other.bin";
 			[[maybe_unused]] constexpr const char* CatSched = "S:/theme4/small/cat_sched.bin";
 			[[maybe_unused]] constexpr const char* CatSoc = "S:/theme4/small/cat_soc.bin";
-			[[maybe_unused]] constexpr const char* LockClosed = "S:/theme4/small/unlock.bin";
-			[[maybe_unused]] constexpr const char* LockOpen = "S:/theme4/small/unlock.bin";
+			[[maybe_unused]] constexpr const char* LockClosed = "S:/theme4/small/lock_closed.bin";
+			[[maybe_unused]] constexpr const char* LockOpen = "S:/theme4/small/lock_open.bin";
 			[[maybe_unused]] constexpr const char* Trash = "";
 			[[maybe_unused]] constexpr const char* TrashSel = "";
 		}
@@ -585,8 +585,8 @@ namespace File {
 			[[maybe_unused]] constexpr const char* CatOther = "S:/theme5/small/cat_other.bin";
 			[[maybe_unused]] constexpr const char* CatSched = "S:/theme5/small/cat_sched.bin";
 			[[maybe_unused]] constexpr const char* CatSoc = "S:/theme5/small/cat_soc.bin";
-			[[maybe_unused]] constexpr const char* LockClosed = "S:/theme5/small/unlock.bin";
-			[[maybe_unused]] constexpr const char* LockOpen = "S:/theme5/small/unlock.bin";
+			[[maybe_unused]] constexpr const char* LockClosed = "S:/theme5/small/lock_closed.bin";
+			[[maybe_unused]] constexpr const char* LockOpen = "S:/theme5/small/lock_open.bin";
 			[[maybe_unused]] constexpr const char* Trash = "";
 			[[maybe_unused]] constexpr const char* TrashSel = "";
 		}
@@ -612,8 +612,8 @@ namespace File {
 			[[maybe_unused]] constexpr const char* CatOther = "S:/theme6/small/cat_other.bin";
 			[[maybe_unused]] constexpr const char* CatSched = "S:/theme6/small/cat_sched.bin";
 			[[maybe_unused]] constexpr const char* CatSoc = "S:/theme6/small/cat_soc.bin";
-			[[maybe_unused]] constexpr const char* LockClosed = "S:/theme6/small/unlock.bin";
-			[[maybe_unused]] constexpr const char* LockOpen = "S:/theme6/small/unlock.bin";
+			[[maybe_unused]] constexpr const char* LockClosed = "S:/theme6/small/lock_closed.bin";
+			[[maybe_unused]] constexpr const char* LockOpen = "S:/theme6/small/lock_open.bin";
 			[[maybe_unused]] constexpr const char* Trash = "";
 			[[maybe_unused]] constexpr const char* TrashSel = "";
 		}
@@ -639,8 +639,8 @@ namespace File {
 			[[maybe_unused]] constexpr const char* CatOther = "S:/theme7/small/cat_other.bin";
 			[[maybe_unused]] constexpr const char* CatSched = "S:/theme7/small/cat_sched.bin";
 			[[maybe_unused]] constexpr const char* CatSoc = "S:/theme7/small/cat_soc.bin";
-			[[maybe_unused]] constexpr const char* LockClosed = "S:/theme7/small/unlock.bin";
-			[[maybe_unused]] constexpr const char* LockOpen = "S:/theme7/small/unlock.bin";
+			[[maybe_unused]] constexpr const char* LockClosed = "S:/theme7/small/lock_closed.bin";
+			[[maybe_unused]] constexpr const char* LockOpen = "S:/theme7/small/lock_open.bin";
 			[[maybe_unused]] constexpr const char* Trash = "";
 			[[maybe_unused]] constexpr const char* TrashSel = "";
 		}
